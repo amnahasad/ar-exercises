@@ -6,3 +6,10 @@ puts "Exercise 3"
 puts "----------"
 
 # Your code goes here ...
+# Load the third store (into @store3) as you did the other two before.
+# Using Active Record's destroy method, delete the store from the database.
+# Verify that the store has been deleted by again outputting (putsing) the count (as you did in Exercise 1.)
+@Store3 = Store.find(3)
+@Store3.destroy
+
+puts "There are #{Store.count} stores in the database"
