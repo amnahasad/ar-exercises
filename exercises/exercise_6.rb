@@ -28,3 +28,7 @@ puts "----------"
 @store2.employees.create(first_name: "Bob", last_name: "Williams", hourly_rate: 65)
 @store2.employees.create(first_name: "Alex", last_name: "Bordon", hourly_rate: 80)
 @store2.employees.create(first_name: "Bart", last_name: "Lester", hourly_rate: 90)
+
+# employee = Employee.new(first_name: "Bob", last_name: "Williams", hourly_rate: 65)
+# employee.save
+# puts employee.errors.messages
